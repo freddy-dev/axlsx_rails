@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"] + ['Guardfile']
 
   s.add_dependency "actionpack", ">= 3.1"
-  s.add_dependency "caxlsx", ">= 3.0"
+  s.add_dependency "faxlsx", ">= 3.0"
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
